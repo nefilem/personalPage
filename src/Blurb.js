@@ -3,13 +3,13 @@ import './App.css';
 import { useEffect } from 'react';
 
 //CONTROL VALUES
-var charWidth = 2.5;
+var charWidth = 1.5;
 var spaceWidth = 8;
 var animSpeed = 10;
 var fadeSec = 2.75;
 var lineSpace = 25;
 
-var text = "... is my name, but that is but a label... ";
+var text = "is my name, but that is but a label... ";
 //var moreText = "彩夏は人間です。女性です。大人な感じが好きです彼女は。しかも31歳です。日本人です。苗字は澤村です。はい、終わり。";
 
 function writeChars(p, t, lim) {
