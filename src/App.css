@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'Got_Heroin';
+  src: url('./fonts/Got_Heroin.ttf');
+}
+
+.BlueGradientBG {
+    background: linear-gradient(-120deg, #021b79, #0555c6, #205e9b);
+}
+
+.writer {
+	position:absolute;
+	opacity:0;
+	text-align:left;
+	white-space:nowrap;
+	overflow:hidden;
+}
+#para1, #para2 {
+	position:absolute;
+	left:20%;
+}
+#para1 {
+	top:20%;
+  width:150px;
+  color: white;
+}
+#para2 {
+	top:80%;
+}
+@keyframes charAnim {
+	/* ADJUST THESE VALUES FOR FADE CONTROL */
+	0% {opacity:0;}
+	35% {opacity:1;}
+	100% {opacity:0.5;}
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
